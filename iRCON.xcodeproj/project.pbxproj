@@ -12,6 +12,7 @@
 		04A489B72727C91C001FFA95 /* ServersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A489B62727C91C001FFA95 /* ServersViewController.swift */; };
 		04A489B92728A8C9001FFA95 /* ServerInfoControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A489B82728A8C9001FFA95 /* ServerInfoControllers.swift */; };
 		04A489BC27291701001FFA95 /* SettingViewControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A489BB27291701001FFA95 /* SettingViewControllers.swift */; };
+		04A489BF272A9DDB001FFA95 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 04A489BE272A9DDA001FFA95 /* LICENSE */; };
 		04A9558E27272C77005C38F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A9558D27272C77005C38F9 /* AppDelegate.swift */; };
 		04A9559027272C77005C38F9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A9558F27272C77005C38F9 /* SceneDelegate.swift */; };
 		04A9559527272C77005C38F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A9559327272C77005C38F9 /* Main.storyboard */; };
@@ -25,6 +26,8 @@
 		04A489B82728A8C9001FFA95 /* ServerInfoControllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerInfoControllers.swift; sourceTree = "<group>"; };
 		04A489BA2728FEEC001FFA95 /* iRCON.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iRCON.entitlements; sourceTree = "<group>"; };
 		04A489BB27291701001FFA95 /* SettingViewControllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewControllers.swift; sourceTree = "<group>"; };
+		04A489BD272A9CD7001FFA95 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		04A489BE272A9DDA001FFA95 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		04A9558A27272C77005C38F9 /* iRCON.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iRCON.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04A9558D27272C77005C38F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04A9558F27272C77005C38F9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +52,8 @@
 		04A9558127272C77005C38F9 = {
 			isa = PBXGroup;
 			children = (
+				04A489BD272A9CD7001FFA95 /* README.md */,
+				04A489BE272A9DDA001FFA95 /* LICENSE */,
 				04A9558C27272C77005C38F9 /* iRCON */,
 				04A9558B27272C77005C38F9 /* Products */,
 			);
@@ -146,6 +151,7 @@
 			files = (
 				04A9559A27272C7A005C38F9 /* LaunchScreen.storyboard in Resources */,
 				04A9559727272C7A005C38F9 /* Assets.xcassets in Resources */,
+				04A489BF272A9DDB001FFA95 /* LICENSE in Resources */,
 				04A9559527272C77005C38F9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
