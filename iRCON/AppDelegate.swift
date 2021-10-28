@@ -16,6 +16,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         return true
     }
+    
+    func applicationWillEnterForeground(_ application: UIApplication) {
+        application.windows.forEach {($0.rootViewController as? ServersViewController)?.tableView.reloadData()}
+    }
 
     // MARK: UISceneSession Lifecycle
 
