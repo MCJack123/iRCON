@@ -11,7 +11,7 @@ Minecraft server RCON client for iOS/macOS.
 ## Building/Installation
 A pre-built macOS application is available in the Releases tab.
 
-To run on iOS, you'll need a Mac with Xcode 13 or later and a Developer account. Simply clone this repository, connect your device, select your device as the run target, and click Run.
+To run on iOS, you'll need a Mac with Xcode 13 or later and a Developer account. Simply clone this repository, open the project file, connect your device, select your device as the run target, and click Run.
 
 ## License
 This program is licensed under the MIT license. See [the license](LICENSE) for more information.
